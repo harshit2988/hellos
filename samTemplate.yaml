@@ -7,7 +7,7 @@ Resources:
     Properties:
       Handler: index.handler
       Runtime: nodejs4.3
-      CodeUri: 's3://codepipeline-ap-southeast-1-143953373404/S3BucketPrintLambda/MyAppBuild/ayBHQYj'
+      CodeUri: ./
       Events:
         MyTimeApi:
           Type: Api
