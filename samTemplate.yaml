@@ -6,7 +6,7 @@ Resources:
     Type: AWS::Serverless::Function
     Properties:
       Handler: index.handler
-      Runtime: nodejs6.10
+      Runtime: nodejs4.3
       CodeUri: 's3://codepipeline-ap-southeast-1-143953373404/S3BucketPrintLambda/MyAppBuild/ayBHQYj'
       Events:
         MyTimeApi:
